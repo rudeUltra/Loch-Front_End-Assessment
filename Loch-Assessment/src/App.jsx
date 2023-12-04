@@ -33,7 +33,7 @@ function App() {
     <div className="container-fluid">
       <div className="row">
         {/* First Column */}
-        <div className="col-md-6" style={columnStyle1}>
+        <div className="col-md-7" style={columnStyle1}>
          
            <Display></Display>
           
@@ -41,7 +41,7 @@ function App() {
         </div>
 
         {/* Second Column */}
-        <div className="col-md-6" style={columnStyle}>
+        <div className="col-md-5" style={columnStyle}>
           <VerticalExample></VerticalExample>
         </div>
       </div>
